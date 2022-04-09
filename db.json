@@ -1,0 +1,24 @@
+{
+  // props: ['id', 'make', 'model', 'price', 'fuelType', 'color', 'mileage', 'manual'],
+  props: {
+    //adding an id prop so that we can pass it when emitting event
+    id: {
+      type: Number,
+      required: true
+    },
+    make: {
+      type: String,
+      required: true
+    },
+    model: {
+      type: String,
+      required: true
+    },
+    price: {
+      type: Number,
+      required: true
+    },
+    fuelType: {
+      type: String,
+      required: true
+    },
